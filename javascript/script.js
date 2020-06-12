@@ -23,7 +23,7 @@ const colorPattern = [
 ];
 
 function parseData() {
-  Papa.parse('../data/cars.csv', {
+  Papa.parse('./data/cars.csv', {
     download: true,
     complete: (res) => {
       res.data.shift()
