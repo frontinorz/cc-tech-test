@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="/style/c3.min.css"
+  >
+  <link
+    rel="stylesheet"
+    href="/style/style.css"
+  >
+
+  <script src="/javascript/papaparse.min.js"></script>
+  <script
+    src="/javascript/d3-5.8.2.min.js"
+    charset="utf-8"
+  ></script>
+  <script src="/javascript/c3.min.js"></script>
+
+  <title>CC Tech Test</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="title">電動車發行資料統計</h1>
+    <div class="wrap">
+      <div class="card">
+        <div class="card__title">
+          年度發行總計
+        </div>
+        <div class="card__body">
+          <div id="chartYear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="card">
+        <div class="card__title">
+          各車廠發行佔比
+        </div>
+        <div class="card__body">
+          <div id="chartCompany"></div>
+        </div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="card">
+        <div class="card__title">
+          平均電動車馬力(kW)
+        </div>
+        <div class="card__body">
+          <div id="chartKw"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/javascript/script.js"></script>
+
+</html>
